@@ -45,7 +45,7 @@ and database technologies.
 
 - Name:Chaitanya Devare  
 - Batch: Sigma 10  
-- Learning Platform:** Apna College  
+- Learning Platform: Apna College  
 
 ---
 
