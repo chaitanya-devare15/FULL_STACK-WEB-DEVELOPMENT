@@ -1,0 +1,39 @@
+/* Q5: Font Georgia for entire document */
+body {
+    font-family: Georgia;
+    text-align: center;   /* Q3: Center align headings & poem */
+}
+
+/* Q2 + Q4: Poem color */
+.poem {
+    color: red;
+    line-height: 30px;    /* Q9 */
+}
+
+/* Q4: Poet name color */
+.poet {
+    color: black;
+}
+
+/* Q6: Wikipedia link */
+a {
+    color: rgb(0, 128, 0);
+    text-decoration: none;
+}
+
+/* Q7: Button style */
+button {
+    background-color: white;
+    color: blueviolet;
+    padding: 6px 12px;
+}
+
+/* Q8: Textarea font color */
+textarea {
+    color: #000000;
+}
+
+/* Q10: Underline only word Ozymandias */
+.ozymandias {
+    text-decoration: underline;
+}

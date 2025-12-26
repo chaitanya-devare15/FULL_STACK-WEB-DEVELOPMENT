@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+}
+
+/* Container */
+.container {
+    width: 400px;
+    height: 400px;
+    border: 3px solid #7fb3ad;
+    border-radius: 12px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+/* Child Boxes */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #b0b0b0;
+    border: 3px solid #4a5c6a;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 50px;
+    font-family: serif;
+    color: #2c3e50;
+}

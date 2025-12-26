@@ -1,0 +1,47 @@
+/* Q2: Align all text to center using universal selector */
+* {
+    text-align: center;
+}
+
+/* Q1: h1 with id mainTopic color blue */
+#mainTopic {
+    color: blue;
+}
+
+/* Q3: Change font style of all headings */
+h1, h3, h5 {
+    font-family: Georgia;
+}
+
+/* Q4: Paragraph text white & background cornflowerblue (without using p selector) */
+body p {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+/* Q5: Button inside div */
+div button {
+    background-color: purple;
+    color: azure;
+}
+
+/* Q6: Button hover effect */
+button:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+/* Q7: Every odd paragraph yellow */
+p:nth-child(odd) {
+    color: yellow;
+}
+
+/* Q8: First letter of h1 red */
+h1::first-letter {
+    color: red;
+}
+
+/* Q9: Checkbox label dark green when checked */
+input:checked + label {
+    color: darkgreen;
+}
